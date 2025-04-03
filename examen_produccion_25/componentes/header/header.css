@@ -1,0 +1,23 @@
+.header-menu {
+    border: 2px solid black;
+    width: 100%;
+    max-width: 38rem;
+    height: 5rem;
+    margin: 2rem auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.header-menu .total-X {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    text-align: left;
+}
+
+.header-menu .total-slash {
+    margin-top: 3rem;
+    margin-right: 3rem;
+    text-align: right;
+}

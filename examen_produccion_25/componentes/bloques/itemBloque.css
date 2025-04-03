@@ -1,0 +1,39 @@
+.sub-bloques {
+    border: 2px solid black;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3rem;
+}
+
+.sub-bloques .btns {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    border: 1px solid black;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.sub-bloques .btns .btn-X {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-bloques .btns2 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    border: 1px solid black;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.sub-bloques .btns2 .btn-slash {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

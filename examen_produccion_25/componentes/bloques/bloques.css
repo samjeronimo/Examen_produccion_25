@@ -1,0 +1,13 @@
+.Bloques {
+    border: 2px solid black;
+    width: 100%;
+    max-width: 38rem;
+    height: 40rem;
+    margin: -2rem auto;
+    padding: 1rem;
+    gap: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
